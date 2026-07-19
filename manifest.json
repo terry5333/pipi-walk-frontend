@@ -1,0 +1,12 @@
+{
+  "name": "皮皮漫步",
+  "short_name": "皮皮漫步",
+  "description": "與親友一起漫步，輕鬆同步 Zepp Life 步數",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#ff6b4a",
+  "icons": [
+    { "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>", "sizes": "192x192", "type": "image/svg+xml" }
+  ]
+}
