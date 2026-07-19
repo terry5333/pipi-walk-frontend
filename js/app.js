@@ -1,5 +1,5 @@
 // ============ Configuration ============
-const API_BASE_URL = ''; // Empty = same origin; set to 'https://your-backend.vercel.app' when deployed separately
+const API_BASE_URL = 'https://pipi-walk-backend.vercel.app'; // Empty = same origin; set to 'https://your-backend.vercel.app' when deployed separately
 
 // ============ Quick Step Presets ============
 const QUICK_STEPS = [
