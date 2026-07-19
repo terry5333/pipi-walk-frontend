@@ -1,5 +1,6 @@
 // ============ Configuration ============
-const API_BASE_URL = 'https://pipi-walk-backend.vercel.app'; // Empty = same origin; set to 'https://your-backend.vercel.app' when deployed separately
+const RAW_API_URL = 'https://pipi-walk-backend.vercel.app'; // Empty = same origin; set to 'https://your-backend.vercel.app' when deployed separately
+const API_BASE_URL = RAW_API_URL.replace(/\/+$/, "");
 
 // ============ Quick Step Presets ============
 const QUICK_STEPS = [
@@ -329,3 +330,4 @@ btnLogout.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
   initOnboarding();
 });
+
